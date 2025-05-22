@@ -1,3 +1,5 @@
-export const environments = {
-  base_url: 'http://ec2-18-221-54-128.us-east-2.compute.amazonaws.com:8080' // URL pública de tu instancia EC2
+export const environment = {
+  production: false,
+  apiUrl: 'http://localhost:8080', // Local para desarrollo
+  websocketUrl: 'http://localhost:8080/chat-websocket'
 };
